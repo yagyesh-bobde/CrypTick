@@ -15,10 +15,10 @@ const Navbar = () => {
           </Typography.Title>
         </div>  
       <Menu theme='dark' style= {{  width: '20vw', height: '100%'}}>
-        <Menu.Item icon={<HomeFilled/>}><Link to='/'>Homepage</Link></Menu.Item>
-        <Menu.Item icon={<MoneyCollectFilled/>}><Link to='/exchanges'>Exchanges</Link></Menu.Item>
-        <Menu.Item icon={<BulbFilled/>}><Link to='/news'>News</Link></Menu.Item>
-        <Menu.Item icon={<FundFilled/>}><Link to='/cryptocurrencies'>Cryptocurrencies</Link></Menu.Item>
+        <Menu.Item key="Homepage"icon={<HomeFilled/>}><Link to='/'>Homepage</Link></Menu.Item>
+        <Menu.Item key="Cryptocurrencies"icon={<FundFilled/>}><Link to='/cryptocurrencies'>Cryptocurrencies</Link></Menu.Item>
+        <Menu.Item key="News"icon={<BulbFilled/>}><Link to='/news'>News</Link></Menu.Item>
+        {/* <Menu.Item key="Exchanges"icon={<MoneyCollectFilled/>}><Link to='/exchanges'>Exchanges</Link></Menu.Item> */}
       </Menu>
     </div>
   )
