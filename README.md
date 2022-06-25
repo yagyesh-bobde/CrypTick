@@ -28,3 +28,4 @@ To get started with the react app, run the below code in you project folder:
 - crypto details 
 - exchanges
 - charts
+- logo 
