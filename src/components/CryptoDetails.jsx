@@ -1,9 +1,10 @@
 import React from 'react'
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import { useGetCryptoDetailsQuery } from '../services/cryptoApi'
 import { Card} from 'antd/lib/card/'
-import { Select, Row, Col, Typography , Avatar} from 'antd'
+import { Select, Row, Col, Typography , Avatar, Button} from 'antd'
 import Loader from './Loader'
+import LeftCircleOutlined from '@ant-design/icons/LeftCircleOutlined'
 
 const CryptoDetails = () => {
   const { cryptoid } = useParams()
@@ -13,8 +14,15 @@ const CryptoDetails = () => {
   console.log(CryptoDetails)
 
   return (
-    <div>
-      {CryptoDetails}
+    <div style={{ marginRight: 'auto', marginLeft: 'auto', marginBlockStart: '30vh', marginBlockEnd: '36vh'}}>
+       <Link to='/' >
+        <Button>
+          <u>Will soon be updated</u>
+          <br/>
+          <LeftCircleOutlined />
+          Go Back
+        </Button>
+       </Link>
     </div>
   )
 }
