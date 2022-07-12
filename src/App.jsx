@@ -8,7 +8,7 @@ const App = () => {
   return (
     <>
 {/* Navbar */}
-    <div className='app' style={{ display: 'flex' }}>
+    {/* <div className='app' style={{ display: 'flex' }}> */}
       <div className='navbar' >
         <Navbar />
       </div>
@@ -28,7 +28,7 @@ const App = () => {
           </Routes>
         </Layout>
       </div>
-    </div>
+    {/* </div> */}
 
 {/* FOOTER */}
         <div className='footer' style={{ backgroundColor: '#002141', textAlign: 'center' , marginTop: '2vh' }}>

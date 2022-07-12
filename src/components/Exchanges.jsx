@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Exchanges = () => {
+const Trading = () => {
   return (
     <div>
-      Exchanges
+      Trading
     </div>
   )
 }
 
-export default Exchanges
+export default Trading
